@@ -40,11 +40,11 @@ void main()
 }
 ```
 ### Output:
-enter you roll # :12
-enter your percentage :90
-enter your grade :A
-Roll NO : 12
-Percentage : 90.000000
-Grade : A
+enter you roll # :12  
+enter your percentage :90  
+enter your grade :A  
+Roll NO : 12  
+Percentage : 90.000000  
+Grade : A  
 
 ## Activity 2.3
