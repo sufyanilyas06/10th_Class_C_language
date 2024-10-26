@@ -42,5 +42,31 @@ void main()
 
 // }
 //-----------------------------------
-// ACTIVITY 2.4
+// ACTIVITY 2.5
+// #include<stdio.h>
+// void main()
+// {
+//     int Balls_in_jar_A , Balls_in_jar_B,Total_number_of_Balls;
+//     printf("enter number of balls in jar A & B :");
+//     scanf("%d %d",&Balls_in_jar_A,&Balls_in_jar_B);
+//     Total_number_of_Balls = Balls_in_jar_A + Balls_in_jar_B;
+//     printf("Total Number of balls are : %d\n",Total_number_of_Balls);
+// }
+//-----------------------------------
+// ACTIVITY 2.6
+#include<stdio.h>
+void main()
+{
+    float original_price, discount_percentage,discount_price,price_after_discount;
+    printf("enter original price of shirt :");
+    scanf("%f",&original_price);
+    printf("enter discount percentage :");
+    scanf("%f",&discount_percentage);
+    discount_price = original_price * discount_percentage/100;
+    price_after_discount = original_price - discount_percentage;
+    printf("Original Price : %.2f\n",original_price);
+    printf("Discount Price : %.2f\n",discount_price);
+    printf("Price after discount :%.2f\n",price_after_discount);
+}
+
 
