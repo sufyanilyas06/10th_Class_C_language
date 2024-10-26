@@ -108,3 +108,21 @@ enter discount percentage :20
 Original Price : 1200.00
 Discount Price : 240.00
 Price after discount :1180.00
+## Activity 2.6
+write a program that takes 2 digit number form user, computes the prdouct of both digits and show the output.
+```c
+#include<stdio.h>
+void main()
+{
+    int two_digit_number, first_digit,second_digit;
+    printf("enter two digit number :");
+    scanf("%d",&two_digit_number);
+    first_digit = two_digit_number /10;
+    second_digit = two_digit_number % 10;
+    printf("The product of %d & %d is %d ", first_digit , second_digit , first_digit*second_digit); 
+
+}
+```
+### Output:
+enter two digit number :56  
+The product of 5 & 6 is 30  
