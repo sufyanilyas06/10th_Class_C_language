@@ -47,4 +47,22 @@ Roll NO : 12
 Percentage : 90.000000  
 Grade : A  
 
-## Activity 2.3
+## Activity 2.4
+Write a program that takes as input the length of one side of square and claculates the area of square.
+```c
+
+#include<stdio.h>
+void main()
+{
+    
+    float length;
+    
+    printf("enter length of square :");
+    scanf("%f",&length);
+    printf("Area of square is : %.2f ",length*length);
+
+}
+```
+### Output:
+enter length of square :12
+Area of square is : 144.00
