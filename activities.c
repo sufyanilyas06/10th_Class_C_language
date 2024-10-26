@@ -54,19 +54,31 @@ void main()
 // }
 //-----------------------------------
 // ACTIVITY 2.6
+// #include<stdio.h>
+// void main()
+// {
+//     float original_price, discount_percentage,discount_price,price_after_discount;
+//     printf("enter original price of shirt :");
+//     scanf("%f",&original_price);
+//     printf("enter discount percentage :");
+//     scanf("%f",&discount_percentage);
+//     discount_price = original_price * discount_percentage/100;
+//     price_after_discount = original_price - discount_percentage;
+//     printf("Original Price : %.2f\n",original_price);
+//     printf("Discount Price : %.2f\n",discount_price);
+//     printf("Price after discount :%.2f\n",price_after_discount);
+// }
+//-----------------------------------
+// ACTIVITY 2.7
 #include<stdio.h>
 void main()
 {
-    float original_price, discount_percentage,discount_price,price_after_discount;
-    printf("enter original price of shirt :");
-    scanf("%f",&original_price);
-    printf("enter discount percentage :");
-    scanf("%f",&discount_percentage);
-    discount_price = original_price * discount_percentage/100;
-    price_after_discount = original_price - discount_percentage;
-    printf("Original Price : %.2f\n",original_price);
-    printf("Discount Price : %.2f\n",discount_price);
-    printf("Price after discount :%.2f\n",price_after_discount);
-}
+    int two_digit_number, first_digit,second_digit;
+    printf("enter two digit number :");
+    scanf("%d",&two_digit_number);
+    first_digit = two_digit_number /10;
+    second_digit = two_digit_number % 10;
+    printf("The product of %d & %d is %d ", first_digit , second_digit , first_digit*second_digit); 
 
+}
 
