@@ -64,5 +64,47 @@ void main()
 }
 ```
 ### Output:
-enter length of square :12
-Area of square is : 144.00
+enter length of square :12  
+Area of square is : 144.00  
+## Activity 2.5
+Write a program that takes as input the number of balls in har A and the number of balls in jar B. The program calcultes and display the total number of balls.
+```c
+#include<stdio.h>
+void main()
+{
+    int Balls_in_jar_A , Balls_in_jar_B,Total_number_of_Balls;
+    printf("enter number of balls in jar A & B :");
+    scanf("%d %d",&Balls_in_jar_A,&Balls_in_jar_B);
+    Total_number_of_Balls = Balls_in_jar_A + Balls_in_jar_B;
+    printf("Total Number of balls are : %d\n",Total_number_of_Balls);
+}
+```
+### Output:
+enter number of balls in jar A & B :12 44 
+Total Number of balls are : 56  
+## Activity 2.6
+Write a program that takes original price of a shirt and discount percentage from user. Program should display the original price of shirt, discount on price and price after discount.
+```c
+//-----------------------------------
+// ACTIVITY 2.5
+#include<stdio.h>
+void main()
+{
+    float original_price, discount_percentage,discount_price,price_after_discount;
+    printf("enter original price of shirt :");
+    scanf("%f",&original_price);
+    printf("enter discount percentage :");
+    scanf("%f",&discount_percentage);
+    discount_price = original_price * discount_percentage/100;
+    price_after_discount = original_price - discount_percentage;
+    printf("Original Price : %.2f\n",original_price);
+    printf("Discount Price : %.2f\n",discount_price);
+    printf("Price after discount :%.2f\n",price_after_discount);
+}
+```
+### Output:
+enter original price of shirt :1200
+enter discount percentage :20
+Original Price : 1200.00
+Discount Price : 240.00
+Price after discount :1180.00
