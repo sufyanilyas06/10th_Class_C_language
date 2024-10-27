@@ -70,15 +70,69 @@ void main()
 // }
 //-----------------------------------
 // ACTIVITY 2.7
-#include<stdio.h>
-void main()
-{
-    int two_digit_number, first_digit,second_digit;
-    printf("enter two digit number :");
-    scanf("%d",&two_digit_number);
-    first_digit = two_digit_number /10;
-    second_digit = two_digit_number % 10;
-    printf("The product of %d & %d is %d ", first_digit , second_digit , first_digit*second_digit); 
+// #include<stdio.h>
+// void main()
+// {
+//     int two_digit_number, first_digit,second_digit;
+//     printf("enter two digit number :");
+//     scanf("%d",&two_digit_number);
+//     first_digit = two_digit_number /10;
+//     second_digit = two_digit_number % 10;
+//     printf("The product of %d & %d is %d ", first_digit , second_digit , first_digit*second_digit); 
 
-}
+// }
+//-----------------------------------
+// ACTIVITY 2.8
+// #include<stdio.h>
+// void main()
+// {
+//     int seconds,hours,minutes;
+//     printf("enter time in seconds: ");
+//     scanf("%d",&seconds);
+//     hours = seconds / 3600;
+//     seconds = seconds - (hours * 3600);
+//     minutes = seconds / 60;
+//     seconds = seconds - (minutes * 60);
+//     printf("Time : %d hr : %d min : %d sec \n", hours, minutes, seconds);
 
+// }
+//-----------------------------------
+// ACTIVITY 2.9
+// #include<stdio.h>
+// void main()
+// {
+//     int x,y,z;
+//     x = 6 * y + z;
+//     x = y * (z*z*z) + 3 * y;
+//     z = x + y*y/3*x;
+//     z = (( x - 2)*( x - 2)) + 3*y;
+//     y = (x + 3*z)/2 + (z*z*z) + x/z ;
+// }
+//-----------------------------------
+// ACTIVITY 2.10
+// #include<stdio.h>
+// void main()
+// {
+//     int x=3,y=7;
+//     printf("the Boolean value of the eq (2+5)>y is %d\n",(2+5)>y);
+//     printf("the Boolean value of the eq (x+4) == y is %d\n",(x+4) == y);
+//     printf("the Boolean value of the eq x!=(y-4) is %d\n",x!=(y-4));
+//     printf("the Boolean value of the eq (y/2) >= x is %d\n",(y/2) >= x) ;
+//     printf("the Boolean value of the eq -1<x is %d\n",-1<x) ;
+//     printf("the Boolean value of the eq (x*3)<=20 is %d\n",(x*3)<=20); 
+   
+// }
+//-----------------------------------
+// ACTIVITY 2.11
+// #include<stdio.h>
+// void main()
+// {
+//     int x=3,y=7,z=8;
+//     printf("the Boolean value of the eq x==2 || y==8 is %d\n",x==2 || y==8);
+// printf("the Boolean value of the eq 7>=y && z<5 is %d\n",7>=y && z<5);
+// printf("the Boolean value of the eq  y==7 && !(true) is %d\n", y==7 && !(1));
+//    printf("the Boolean value of the eq z>= 5 || x<= -3 %d\n",z>= 5 || x<= -3)  ;
+//    printf("the Boolean value of the eq x!=y || y<5 is %d\n",x!=y || y<5) ;
+//    printf("the Boolean value of the eq !(z>x) is %d\n",!(z>x)); 
+   
+// }
