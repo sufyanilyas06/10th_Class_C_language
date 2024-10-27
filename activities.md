@@ -202,7 +202,7 @@ the Boolean value of the eq (x*3)<=20 is 1
 ## Activity 2.11
 Consider the variable x=4, y=7,z=8. Find out Boolean result of the following expressions.
 
-$$ x==2 || y==8\qquad 7>=y && z<5 $$
+$$ x==2 || y==8 \qquad 7>=y \&\& z<5 $$
 $$ z>= 5 || x<= -3 > \qquad y==7 && !(true) $$
 $$ x!=y || y<5 \qquad !(z>x) $$
 ```c
