@@ -177,7 +177,7 @@ Consider the variable x=3, y=7. Find out Boolean result of the following express
 
 $$ (2+5)>y \qquad (x+4) == y $$
 $$ x!=(y-4) \qquad (y/2) >= x $$
-$$ -1<x \qquad (x*3),+20 $$
+$$ -1<x \qquad (x*3)<=20 $$
 ```c
 #include<stdio.h>
 void main()
