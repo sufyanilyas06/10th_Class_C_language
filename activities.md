@@ -158,3 +158,20 @@ $$ z = x + \frac{y^2}{3x} $$
 $$ z = (x - 2)^2 + 3y $$
 
 $$ y = \frac{x + 3z}{2} + z^3 + \frac{x}{z} $$
+```c
+#include<stdio.h>
+void main()
+{
+    int x,y,z;
+    x = 6 * y + z;
+    x = y * (z*z*z) + 3 * y;
+    z = x + y*y/3*x;
+    z = (( x - 2)*( x - 2)) + 3*y;
+    y = (x + 3*z)/2 + (z*z*z) + x/z ;
+}
+```
+## Output:
+Output of this code will depend on the value of x,y,z
+## Activity 2.10
+Consider the variable x=3, y=7. Find out Boolean result of the following expressions.
+&& (2+5)>y      (x+4) == y &&
