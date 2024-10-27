@@ -175,4 +175,4 @@ Output of this code will depend on the value of x,y,z
 ## Activity 2.10
 Consider the variable x=3, y=7. Find out Boolean result of the following expressions.
 
-$$ (2+5)>y \\ (x+4) == y $$
+$$ (2+5)>y \: (x+4) == y $$
