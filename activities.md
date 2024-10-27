@@ -108,7 +108,7 @@ enter discount percentage :20
 Original Price : 1200.00
 Discount Price : 240.00
 Price after discount :1180.00
-## Activity 2.6
+## Activity 2.7
 write a program that takes 2 digit number form user, computes the prdouct of both digits and show the output.
 ```c
 #include<stdio.h>
@@ -125,4 +125,27 @@ void main()
 ```
 ### Output:
 enter two digit number :56  
-The product of 5 & 6 is 30  
+The product of 5 & 6 is 30 
+ ## Activity 2.8
+ Write a program that takes seconds as input and clacultes euivalent numbers of hours, minutes and seconds.
+ ```c 
+ #include<stdio.h>
+void main()
+{
+    int seconds,hours,minutes;
+    printf("enter time in seconds: ");
+    scanf("%d",&seconds);
+    hours = seconds / 3600;
+    seconds = seconds - (hours * 3600);
+    minutes = seconds / 60;
+    seconds = seconds - (minutes * 60);
+    printf("Time : %d hr : %d min : %d sec \n", hours, minutes, seconds);
+
+}
+```
+### Output:
+enter time in seconds: 18978  
+Time : 5 hr : 16 min : 18 sec 
+  ## Activity 2.9
+  Convert the following algebric Expressions into C expression.
+  $ x = 6y+z $
