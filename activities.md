@@ -172,6 +172,33 @@ void main()
 ```
 ## Output:
 Output of this code will depend on the value of x,y,z
+## Activity 2.11
+Consider the variable x=4, y=7,z=8. Find out Boolean result of the following expressions.
+
+$$ x==2 || y==8\qquad 7>=y && z<5 $$
+$$ z>= 5 || x<= -3 > \qquad y==7 && !(true) $$
+$$ -1<x \qquad (x*3)<=20 $$
+```c
+#include<stdio.h>
+void main()
+{
+    int x=3,y=7;
+    printf("the Boolean value of the eq (2+5)>y is %d\n",(2+5)>y);
+printf("the Boolean value of the eq (x+4) == y is %d\n",(x+4) == y);
+printf("the Boolean value of the eq x!=(y-4) is %d\n",x!=(y-4));
+   printf("the Boolean value of the eq (y/2) >= x is %d\n",(y/2) >= x) ;
+   printf("the Boolean value of the eq -1<x is %d\n",-1<x) ;
+   printf("the Boolean value of the eq (x*3)<=20 is %d\n",(x*3)<=20); 
+   
+}
+```
+### Output:
+the Boolean value of the eq (2+5)>y is 0  
+the Boolean value of the eq (x+4) == y is 1  
+the Boolean value of the eq x!=(y-4) is 0  
+the Boolean value of the eq (y/2) >= x is 1  
+the Boolean value of the eq -1<x is 1  
+the Boolean value of the eq (x*3)<=20 is 1  
 ## Activity 2.10
 Consider the variable x=3, y=7. Find out Boolean result of the following expressions.
 
