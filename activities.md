@@ -148,6 +148,7 @@ enter time in seconds: 18978
 Time : 5 hr : 16 min : 18 sec 
 ## Activity 2.9
 Convert the following algebric Expressions into C expression.
+
 $$
 1.\( x = 6y + z \)
 2. \( x = yz^3 + 3y \)
