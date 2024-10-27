@@ -150,9 +150,9 @@ Time : 5 hr : 16 min : 18 sec
 Convert the following algebric Expressions into C expression.
 
 $$
-1.\( x = 6y + z \)
+1.\( x = 6y + z \)  
 2. \( x = yz^3 + 3y \)
-3. \( z = x + \frac{y^2}{3x} \)
-4. \( z = (x - 2)^2 + 3y \)
-5. \( y = \frac{x + 3z}{2} + z^3 + \frac{x}{z} \)
+3. \( z = x + \frac{y^2}{3x} \)  
+4. \( z = (x - 2)^2 + 3y \)  
+5. \( y = \frac{x + 3z}{2} + z^3 + \frac{x}{z} \)  
 $$
