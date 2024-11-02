@@ -28,5 +28,4 @@ int main(){
 
 ### Exercise 2 
 Write a program that takes Celsius temperature as input, converts the temperature into Fahrenheit and shows the output. Formula for conversion of temperature from Celsius to Fahrenheit is: 
-    
-    $$F=9/2*C+32$$
+     $$F=9/2*C+32$$
