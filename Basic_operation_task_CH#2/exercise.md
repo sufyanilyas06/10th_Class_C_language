@@ -29,3 +29,17 @@ int main(){
 ### Exercise 2 
 Write a program that takes Celsius temperature as input, converts the temperature into Fahrenheit and shows the output. Formula for conversion of temperature from Celsius to Fahrenheit is:   
      $$F=9/2*C+32$$
+```c
+#include<stdio.h>
+int main()
+{
+	float temperature;
+	printf("enter temperature in Celsius :");
+	scanf("%f",&temperature);
+	printf("temperature in Fahrenheit :%f",(9/5*temperature)+32);
+	
+}
+```
+## Output:
+enter temperature in Celsius :32.24  
+temperature in Fahrenheit :64.240005  
