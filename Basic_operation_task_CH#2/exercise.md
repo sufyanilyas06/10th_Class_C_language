@@ -57,8 +57,8 @@ int main()
 }
 ```
 ### Exercise 4
-Write a program that displays the following output using single printf statement. 
-I am a boy 
+Write a program that displays the following output using single printf statement.  
+I am a boy   
 I live in Pakistan  
 I am a proud Pakistani  
 ```c
