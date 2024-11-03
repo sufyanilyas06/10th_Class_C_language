@@ -62,6 +62,7 @@ I am a boy
 I live in Pakistan  
 I am a proud Pakistani  
 ```c
+#include<stdio.h>
 int main()
 {
     printf("Iam a boy\nI live in Pakistan\nI am a proud Pakistani");
