@@ -43,3 +43,7 @@ int main()
 ## Output:
 enter temperature in Celsius :32.24  
 temperature in Fahrenheit :64.240005  
+### Exercise 3
+Write a program that displays the following output using single printf statement:   
+*    *    *    *  
+1    2    3    4  
