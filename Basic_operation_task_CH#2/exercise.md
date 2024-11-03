@@ -23,6 +23,7 @@ int main(){
     OvertimeSalary = OvertimePayRate * OvertimeHourseOfEmployee;
     TotalSalary=OvertimeSalary+BasicSalary;
     printf("the total salary of employee is : %d $. \n",TotalSalary);
+    return 0;
 }
 ```
 
@@ -37,7 +38,7 @@ int main()
 	printf("enter temperature in Celsius :");
 	scanf("%f",&temperature);
 	printf("temperature in Fahrenheit :%f",(9/5*temperature)+32);
-	
+	return 0;
 }
 ```
 ## Output:
@@ -47,3 +48,23 @@ temperature in Fahrenheit :64.240005
 Write a program that displays the following output using single printf statement:   
 \*     \*     \*     \*  
 1    2    3    4  
+```c
+#include<stdio.h>
+int main()
+{
+    printf("*\t*\t*\t*\n1\t2\t3\t4\n");
+    return 0;
+}
+```
+### Exercise 4
+Write a program that displays the following output using single printf statement. 
+I am a boy 
+I live in Pakistan  
+I am a proud Pakistani  
+```c
+int main()
+{
+    printf("Iam a boy\nI live in Pakistan\nI am a proud Pakistani");
+    return 0;
+}
+```
