@@ -2,7 +2,7 @@
    <h1> Exercise Problems</h1>
 </div>
 
-### Exercise 1:
+## Exercise 1:
 The criteria for calculation of wages in a company is givent below.
 
 BasicSalary = PayRatePerHour  X WorkingHourseOfEmployee  
@@ -26,8 +26,10 @@ int main(){
     return 0;
 }
 ```
-
-### Exercise 2 
+### Output
+enter working hours & Overtime Hourse :1200 30
+the total salary of employee is : 123600 $.
+## Exercise 2 
 Write a program that takes Celsius temperature as input, converts the temperature into Fahrenheit and shows the output. Formula for conversion of temperature from Celsius to Fahrenheit is:   
      $$F=9/2*C+32$$
 ```c
@@ -41,10 +43,10 @@ int main()
 	return 0;
 }
 ```
-## Output:
+### Output:
 enter temperature in Celsius :32.24  
 temperature in Fahrenheit :64.240005  
-### Exercise 3
+## Exercise 3
 Write a program that displays the following output using single printf statement:   
 \*     \*     \*     \*  
 1    2    3    4  
@@ -56,7 +58,7 @@ int main()
     return 0;
 }
 ```
-### Exercise 4
+## Exercise 4
 Write a program that displays the following output using single printf statement.  
 I am a boy   
 I live in Pakistan  
@@ -69,7 +71,7 @@ int main()
     return 0;
 }
 ```
-### Exercise 5  
+## Exercise 5  
 
 A clothing brand offers 15% discount on each item. A lady buys 5 shirts from this brand. Write a program that calculates total price after discount and amount of discount availed by the lady. Original prices of the shirts are:  
 Shirt1 = 423  
@@ -94,11 +96,11 @@ int main()
     printf("Total Price : %d\nTotal 15 percent  discount : %d\nAmount after Discount : %d",totalPrice,DiscountPrice,totalPriceAfterDiscount);
 }
 ```
-## Output
+### Output
 Total Price : 2213
 Total 15 percent  discount : 331
 Amount after Discount : 1882
-### Exercise 6
+## Exercise 6
 Write a program that swaps the values of two integer variables without help of any third variable.
 ```C
 #include<stdio.h>
@@ -116,13 +118,13 @@ int main()
     printf("numbers after swap are : %d & %d\n",n1,n2);
 }
 ```
-## Output
+### Output
 enter 1st number :5  
 enter 2nd number :6  
 numbers before swap are : 5 & 6  
 numbers after swap are : 6 & 5  
 
-### Exercise
+## Exercise
 Write a program that takes a 5 digit number as input, calculator and display the sum of first and last digit of number.
 ```C
 #include<stdio.h>
