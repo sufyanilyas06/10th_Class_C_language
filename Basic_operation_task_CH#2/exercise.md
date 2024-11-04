@@ -144,6 +144,16 @@ int main()
    print("Sum is : %d",sum);
 }
 ```
-## Output
+### Output
 Enter 5 digit number:98765  
 Sum is : 14  
+## Exercise 8
+
+Write a program that takes monthly income and monthly expenses of the user like electricity bill, gas bill, food expense. Program should calculate the
+following:
+ - Total monthly expenses
+ - Total yearly expenses
+ - Monthly savings
+ -Yearly saving
+ -Average saving per month
+ -Average expense per month
