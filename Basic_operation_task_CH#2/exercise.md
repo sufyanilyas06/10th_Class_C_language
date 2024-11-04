@@ -69,3 +69,12 @@ int main()
     return 0;
 }
 ```
+### Exercise 5  
+
+A clothing brand offers 15% discount on each item. A lady buys 5 shirts from this brand. Write a program that calculates total price after discount and amount of discount availed by the lady. Original prices of the shirts are:  
+Shirt1 = 423  
+Shirt2 = 320  
+Shirt3 = 270  
+Shirt4 = 680  
+Shirt5 = 520  
+Note: Use 5 variables to store the prices of shirts.  
