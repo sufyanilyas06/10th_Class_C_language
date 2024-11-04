@@ -101,9 +101,9 @@ int main()
 }
 ```
 ### Output
-Total Price : 2213
-Total 15 percent  discount : 331
-Amount after Discount : 1882
+Total Price : 2213  
+Total 15 percent  discount : 331  
+Amount after Discount : 1882  
 ## Exercise 6
 Write a program that swaps the values of two integer variables without help of any third variable.
 ```C
@@ -153,8 +153,8 @@ Write a program that takes monthly income and monthly expenses of the user like 
 following:
  - Total monthly expenses
  - Total yearly expenses
- - Monthly savings
- - Yearly saving
+ - Monthly savings  
+ - Yearly saving  
  - Average saving per month
  - Average expense per month
  ```C
@@ -185,3 +185,15 @@ following:
     printf("Average saving per month :%d\n",AverageSavingPerMonth); 
     printf("Average expense per month :%d\n",AverageExpensePerMonth);
  }
+ ```
+ ### Output
+ Enter Your Monthly Income :100000  
+enter your electric bill :25000  
+enter your gas bill :1200  
+enter your food expense :50000  
+Total Monthly Expenses : 76200  
+Total yearly expenses :914400  
+Monthly saving :23800  
+Yearly saving :285600  
+Average saving per month :23800  
+Average expense per month :914400  
