@@ -121,6 +121,7 @@ enter 1st number :5
 enter 2nd number :6  
 numbers before swap are : 5 & 6  
 numbers after swap are : 6 & 5  
+
 ### Exercise
 Write a program that takes a 5 digit number as input, calculator and display the sum of first and last digit of number.
 ```C
