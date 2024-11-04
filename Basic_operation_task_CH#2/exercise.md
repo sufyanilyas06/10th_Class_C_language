@@ -13,7 +13,8 @@ Write a program that should take working hourse and overtime hourse of employee 
 ```c
 #include<stdio.h>
 int main(){
-    int BasicSalary, PayRatePerHour,workingHouseOfEmployee, OvertimeSalary ,OvertimePayRate , OvertimeHourseOfEmployee,TotalSalary;
+    int BasicSalary, PayRatePerHour,workingHouseOfEmployee, OvertimeSalary ;
+    int OvertimePayRate , OvertimeHourseOfEmployee,TotalSalary;
     //let set pay rate & overtime rate as default
     PayRatePerHour=100;
     OvertimePayRate=120;
@@ -93,7 +94,10 @@ int main()
     totalPrice = Shirt1+Shirt2+Shirt3+Shirt4+Shirt5;
     DiscountPrice = totalPrice*(15*1.0/100);
     totalPriceAfterDiscount = totalPrice - DiscountPrice ;
-    printf("Total Price : %d\nTotal 15 percent  discount : %d\nAmount after Discount : %d",totalPrice,DiscountPrice,totalPriceAfterDiscount);
+    printf("Total Price : %d\n", totalPrice);
+    printf("Total 15 percent discount : %d\n", DiscountPrice);
+    printf("Amount after Discount : %d\n", totalPriceAfterDiscount);
+
 }
 ```
 ### Output
