@@ -157,3 +157,31 @@ following:
  - Yearly saving
  - Average saving per month
  - Average expense per month
+ ```C
+ #include<stdio.h>
+ int main()
+ {
+    int monthlyIncome,ElecticBill,gasBill,foodExpence;
+    int totalMonthlyExpenses,TotalYearlyExpenses,monthlySavings;
+    int yearlySaving,AverageSavingPerMonth,AverageExpensePerMonth;
+    printf("Enter Your Monthly Income :");
+    scanf("%d",&monthlyIncome);
+    printf("enter your electric bill :");
+    scanf("%d",&ElecticBill);
+    printf("enter your gas bill :");
+    scanf("%d",&gasBill);
+    printf("enter your food expense :");
+    scanf("%d",&foodExpence);
+    totalMonthlyExpenses = ElecticBill+gasBill+foodExpence;
+    TotalYearlyExpenses=totalMonthlyExpenses*12;
+    monthlySavings=monthlyIncome-totalMonthlyExpenses;
+    yearlySaving = monthlySavings*12;
+    AverageSavingPerMonth = yearlySaving/12;
+    AverageExpensePerMonth = TotalYearlyExpenses;
+    printf("Total Monthly Expenses : %d\n",totalMonthlyExpenses);
+    printf("Total yearly expenses :%d\n",TotalYearlyExpenses);
+    printf("Monthly saving :%d\n",monthlySavings);
+    printf("Yearly saving :%d\n",yearlySaving);
+    printf("Average saving per month :%d\n",AverageSavingPerMonth); 
+    printf("Average expense per month :%d\n",AverageExpensePerMonth);
+ }
