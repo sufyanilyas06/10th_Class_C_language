@@ -154,6 +154,6 @@ following:
  - Total monthly expenses
  - Total yearly expenses
  - Monthly savings
- -Yearly saving
- -Average saving per month
- -Average expense per month
+ - Yearly saving
+ - Average saving per month
+ - Average expense per month
