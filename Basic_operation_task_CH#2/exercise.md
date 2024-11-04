@@ -78,3 +78,65 @@ Shirt3 = 270
 Shirt4 = 680  
 Shirt5 = 520  
 Note: Use 5 variables to store the prices of shirts.  
+```C
+#include<stdio.h>
+int main()
+{
+    int Shirt1 = 423 ;  
+    int Shirt2 = 320 ;  
+    int Shirt3 = 270 ;  
+    int Shirt4 = 680 ;  
+    int Shirt5 = 520 ;
+    int totalPrice, totalPriceAfterDiscount, DiscountPrice;
+    totalPrice = Shirt1+Shirt2+Shirt3+Shirt4+Shirt5;
+    DiscountPrice = totalPrice*(15*1.0/100);
+    totalPriceAfterDiscount = totalPrice - DiscountPrice ;
+    printf("Total Price : %d\nTotal 15 percent  discount : %d\nAmount after Discount : %d",totalPrice,DiscountPrice,totalPriceAfterDiscount);
+}
+```
+## Output
+Total Price : 2213
+Total 15 percent  discount : 331
+Amount after Discount : 1882
+### Exercise 6
+Write a program that swaps the values of two integer variables without help of any third variable.
+```C
+#include<stdio.h>
+int main()
+{
+    int n1,n2;
+    printf("enter 1st number :");
+    scanf("%d",&n1);
+    printf("enter 2nd number :");
+    scanf("%d",&n2);
+    printf("numbers before swap are : %d & %d\n",n1,n2);
+    n1=n1+n2;
+    n2=n1-n2;
+    n1=n1-n2;
+    printf("numbers after swap are : %d & %d\n",n1,n2);
+}
+```
+## Output
+enter 1st number :5  
+enter 2nd number :6  
+numbers before swap are : 5 & 6  
+numbers after swap are : 6 & 5  
+### Exercise
+Write a program that takes a 5 digit number as input, calculator and display the sum of first and last digit of number.
+```C
+#include<stdio.h>
+int main()
+{
+   int n;
+   printf("Enter 5 digit number:");
+   scanf("%d",&n);
+   int firstDigit, LastDigit;
+   firstDigit = n/10000;
+   LastDigit = n%10;
+   int sum = LastDigit + firstDigit;
+   print("Sum is : %d",sum);
+}
+```
+## Output
+Enter 5 digit number:98765  
+Sum is : 14  
