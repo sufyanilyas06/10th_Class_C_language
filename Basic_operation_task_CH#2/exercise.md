@@ -197,6 +197,7 @@ Monthly saving :23800
 Yearly saving :285600  
 Average saving per month :23800  
 Average expense per month :914400  
+
 ## Exercise 9
 Write a program that takes a character and number of steps as input from user. Program should then jump number of steps from that character.  
 #### Sample output:  
