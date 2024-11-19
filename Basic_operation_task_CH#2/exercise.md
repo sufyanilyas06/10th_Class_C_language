@@ -197,3 +197,29 @@ Monthly saving :23800
 Yearly saving :285600  
 Average saving per month :23800  
 Average expense per month :914400  
+## Exercise 9
+Write a program that takes a character and number of steps as input from user. Program should then jump number of steps from that character.  
+#### Sample output:  
+Enter character: a  
+Enter steps: 2  
+```c
+#include<stdio.h>
+int main()
+{
+    char character;
+    int step;
+    printf("enter a character :");
+    scanf( "%c",&character);
+    printf("enter steps:");
+    scanf("%d",&step);
+    char new_charcter = character + step;
+    printf("previous character was : %c\n",character);
+    printf("Now after %d step move forward it is %c\n",step,new_charcter);
+
+}
+```
+### Output  
+enter a character :a  
+enter steps:3  
+previous character was : a  
+Now after 3 step move forward it is d  
